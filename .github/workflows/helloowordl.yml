@@ -1,4 +1,4 @@
-name: "hwello world workflow"
+name: "hello world workflow"
 
 on:
     push: 
@@ -11,5 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "print hello world"
-            run: echo "Hello word"
+              run: echo "Hello word"
 

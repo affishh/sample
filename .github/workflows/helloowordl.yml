@@ -13,3 +13,7 @@ jobs:
             - name: "print hello world"
               run: echo "Hello word"
 
+            - name: "print current date"
+              run: date
+
+
